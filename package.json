@@ -1,31 +1,21 @@
 {
-  "name": "p_riego_agricola",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Aplicación web para la gestión de riego agrícola y monitoreo en tiempo real, desarrollada con React y Express.",
-  "homepage": "https://github.com/wflores9719-prog/P_RIEGO_AGRICOLA#readme",
-  "bugs": {
-    "url": "https://github.com/wflores9719-prog/P_RIEGO_AGRICOLA/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wflores9719-prog/P_RIEGO_AGRICOLA.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
+  "keywords": [],
+  "type": "commonjs",
   "dependencies": {
-    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
     "express": "^5.3.0",
-    "jsonwebtoken": "^9.0.3",
-    "morgan": "^1.12.1",
-    "mysql": "^2.18.1",
-    "nodemon": "^3.1.14"
+    "mysql2": "^3.24.6"
   },
   "devDependencies": {
-    "dotenv": "^18.0.9"
+    "nodemon": "^3.1.14"
   }
 }
